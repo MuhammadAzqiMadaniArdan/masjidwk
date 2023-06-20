@@ -1,0 +1,789 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F5F5F5;;
+}
+
+.container{
+    margin: 4% 5%;
+}
+
+.scroll-container{
+    overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.nav1 li a{
+    display: block;
+    padding: 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 20px; 
+    color: gray;
+}
+
+.nav1 li a:hover{
+    color: black;
+}
+
+.nav1 li{
+    float: right;
+    text-decoration: none;
+    overflow: hidden;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 16px 15px;
+    overflow: hidden;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav .masjid {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .masjid a{
+    padding: 20px 15px;
+    font-weight:bold;
+    font-size: 20px; 
+    color: gray;
+}
+/* .awal{
+    float:left;
+}
+
+.awal img{
+    margin-right: 5%;
+    width: 30px;
+} */
+
+
+a{
+    text-decoration: none;
+}
+
+span{
+    color: darkblue;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    display: block;
+    float: left;
+}
+
+.logo img{
+    align-items: center;
+    width: 70px;
+}
+
+.logo a{
+    align-items: center;
+}
+
+/* c1 */
+
+.C1{
+    margin: 5% 0%;
+}
+
+
+
+.C1 .card1 img{
+    width: 30px;
+
+}
+
+.C1 .card1 p{
+    align-items: center;
+}
+
+
+
+.C1 .mjd1 .card1{ 
+    background-image: url(img/ban1.png);
+    opacity: 1;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+.C1 .mjd1 {
+    margin-left: 10%;
+    float: right;
+    align-items: center;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.C1 .mjd1 img{
+    border-radius: 10%;
+}
+
+.C1 .msj img{
+    width: 350px;
+}
+
+.C1 .text1{
+    width: 550px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+}
+
+.C1 .text1 h1{
+    font-size: 50px;
+}
+.C1 .text1 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.C1 .text1 button{
+    padding: 2% 5%;
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    border-radius: 10%;
+}
+
+.C1 .text1 h3{
+    color: rgb(77, 69, 69);
+}
+/* c2 */
+
+
+
+.C2 .block .progress{
+    margin: 2% 0%;
+    background-color:lightgray;
+    width: 900px;
+    height: 50px;
+}
+
+.C2 .block .progress .progress-done{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 100%;
+    transition: 1s ease 0.3s;
+}
+
+.C2 .block{
+    display: flex;
+    justify-content: space-around;
+}
+
+.C2 .block .persen{
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 2%;
+    color: darkblue;
+}
+
+.inputContainer{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.C2 .card1{
+    margin: 0% 2%;
+    width: 1150px;
+    height: auto;
+    background-color: white;
+    box-shadow: 5px 10px gray;
+}
+
+
+.C2 .just-text .card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.C2 .just-text .card span{
+    color: yellow;
+}
+
+.mySlides .text {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.C2 .card1:hover{
+    box-shadow: 150px black;
+    
+}
+
+.C2 .all li{
+    display: block;
+    float: right;
+    width: 100px;
+    height: 20px;
+    margin-right: 50px;
+}
+
+.C2 .text2{
+    padding: 2% 0%;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    margin-right: 20%;
+}
+
+
+.foot{
+    margin-top: 2%;
+    padding: 10px 5px;
+    background-color: darkblue;
+    color: white;
+}
+
+.C2 .just-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+    #scroll-container1 {
+        border: 3px solid darkblue;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+
+    #scroll-text {
+        /* animation properties */
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        
+        -moz-animation: my-animation 15s linear infinite;
+        -webkit-animation: my-animation 15s linear infinite;
+        animation: my-animation 15s linear infinite;
+      }
+    
+    @-webkit-keyframes my-animation {
+        from { -webkit-transform: translateX(80%); }
+        to { -webkit-transform: translateX(-100%); }
+      }
+      
+      @keyframes my-animation {
+        from {
+          -moz-transform: translateX(100%);
+          -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+        }
+        to {
+          -moz-transform: translateX(-100%);
+          -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+        }
+    }
+
+
+    
+
+/* c3 */
+.mySlides {display:none}
+
+.C3{
+    margin:10% 0% ;
+}
+
+.C3 .slideshow-container img{
+    margin-right: 10%;
+    height: 550px;
+    border-radius: 10%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+
+    padding: 2% 2%;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    text-align: center;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  
+.C3 .loop-section{
+    display: block;
+    float: right;
+    border-radius: 30%;
+}
+
+.C3 .loop-section button{
+    color: white;
+}
+.C3 .loop-section .button1{
+    background-color: gray;
+}
+.C3 .loop-section .button2{
+    background-color: darkblue;
+}
+/* c4 */
+
+.C4{
+    margin: 10% 0%;
+}
+
+.C4 h1{
+    font-size: 45px;
+}
+
+.C4 h2{
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+}
+.C4 .card1{
+    margin: 1% 0%;
+    padding: 5% 5%;
+    width: 250px;
+    height:260px;
+    background-image: linear-gradient(aliceblue,white,white);
+    border-radius: 10%;
+    box-shadow: 5px 10px gray;
+}
+
+.C4 .card2{
+    margin: 1% 3%;
+    padding: 5% 5%;
+    display: block;
+    float: right;
+    width: 250px;
+    height: 260px;
+    background-image: linear-gradient(aliceblue,white,white);
+    border-radius: 10%;
+    box-shadow: 5px 10px gray;
+}
+
+.C4 .max-card1 img{
+    width: 60px;
+    border-radius: 70%;
+    background-color: #F5F5F5;
+}
+
+
+
+
+h3{
+    color: grey;
+}
+.title-text{
+    width: 500px;
+    height: 200px;
+}
+
+.C4 .max-card1{
+    height: 700px;
+    width: 800px;
+}
+
+.C4 .img1 img{
+    margin: 2% 0%;
+    display: block;
+    float: right;
+    height: 700px;
+    width: 300px;
+    border-radius: 5%;
+}
+
+/* c5 */
+
+.C5{
+    margin: 10% 0%;
+}
+
+.C5 .title-text h1{
+    font-size: 40px;
+}
+
+.C5 .card1{
+    margin: 2% 2%;
+    padding: 3% 3%;
+    width: 495px;
+    height: 167px;
+    background-image: linear-gradient(aliceblue,white,white);
+    box-shadow: 5px 10px gray;
+}
+
+.C5 .card2{
+    margin-left: 10%;
+    padding: 3% 3%;
+    display: block;
+    float: right;
+    width: 495px;
+    height: 167px;
+    background-image: linear-gradient(aliceblue,white,white);
+    box-shadow: 5px 10px gray ;
+}
+
+.C5 .max-card2 h1{
+    color: darkblue;
+}
+
+.C5 .max-card2{
+    height: 500px;
+    width: 1190px;
+}
+
+/* C6 */
+
+.C6{
+    margin-bottom: 20%;
+}
+
+.C6 h1{
+    font-size: 45px;
+}
+
+.C6 table td{
+    padding: 2% 2%;
+}
+
+.C6 thead th{
+    padding: 2% 2%;
+}
+
+.C6 tbody .gray td {
+    color: gray;
+    background-color: black;
+}
+
+
+
+table {
+    margin-bottom: 5%;
+    padding: 5% 5%;
+    border: 5px;
+    border-color: gray;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100px;
+  }
+
+thead{
+    background-color: gray;
+}
+
+th, td {
+    border-bottom: 1px solid solid;
+  }
+
+  tr{
+    text-align: center;
+  }
+
+  tr:hover {background-color: coral;}
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* c7 */
+
+.C7 h1{
+    font-size: 45px;
+}
+
+.C7 .max-card3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.C7 .card1 img{
+    margin: 2% 3%;
+    width: 350px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 10%;
+    box-shadow: 5px 10px gray;
+}
+
+.C7 .card2 img{
+    margin: 2% 3%;
+    width: 350px;
+    height: 400px;
+    background-color: gainsboro;
+    border-radius: 10%;
+    box-shadow: 5px 10px gray;
+}
+
+.C7 .card3 img{
+    margin: 2% 3%;
+    width: 350px;
+    height: 400px;
+    background-color: cadetblue;
+    border-radius: 10%;
+    box-shadow: 5px 10px gray;
+}
+
+.C7 .gallery {
+    margin: 1% 0%;
+    border-radius: 10%;
+    background-color:blue;
+    text-align: center;
+    padding: 13% 11.5%;
+    box-shadow: 5px 10px gray;
+}
+
+.C7 .gallery h2{
+    color: white;
+}
+
+.C7 .gallery{
+    opacity: 1;
+}
+
+.C7 .title-text1{
+    text-align: center;
+}
+
+.C7 .back button{
+    margin: 3% 0%;
+    margin-left: 45%;
+    padding: 2% 2%;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+footer{
+    margin-top: 5% ;
+    padding: 5% 5%;
+    background-color: darkblue;
+    color: azure;
+}
+
+
+.footer-main {
+    background-color:darkblue;
+    padding: 24px 60px;
+    color: white;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 100px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+  }
+
+  .footer-1 img{
+    width: 50px;
+  }
+  
+  .footer-2 li{
+    margin: 10% 0%;
+  }
+
+  .footer-3 .chat{
+    width: 240px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 5px 0px 5px 10px;
+    margin-bottom: 8px;
+    margin-left: -10px;
+    resize: none;
+  }
+  .footer-3 .chat1{
+    width: 240px;
+    height: 100px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 5px 0px 5px 10px;
+    margin-bottom: 8px;
+    margin-left: -10px;
+    resize: none;
+  }
+
+  .footer-3 button{
+    margin-left: 48%;
+    background-color: yellow;
+  }
+
+  .end-foot{
+    text-align: center;
+  }
+
+  .foot-medsos img{
+    width: 30px;
+  }
+
+  .foot-medsos {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 2%;
+  }
+
+  /* dropdown */
+  /* select */
+.select{
+    width: 600px;
+    height: auto;
+}
+
+/* backend */
+
+label{
+    display: block;
+}
+
+.card-input{
+        border-radius: 10%;
+        padding: 5% 3%;
+        margin:auto;
+        background-image: linear-gradient(green,white   );
+        backdrop-filter: blur(15px);
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        box-shadow: 50% black;
+        
+}
+
+label{
+    display: block;
+}
+
+.card-input .card-text {
+    text-align: center;
+}
+
+.card-text h4{
+    color: white;
+}
+
+.bd-data{
+background-color: darkblue;
+}
+/* 
+@media screen and (max-width: 600px ) {
+
+    .nav1 ul {
+        text-align: center;
+    }
+
+    .container {
+        width: 300px;
+        height: 100px;
+    }
+
+    
+    .container h1{
+        font-size: 30px;
+    }
+
+    .C1 .C1sub-title h1{
+        font-size: 25px;
+    }
+
+    .C2 {
+
+        width:100px;
+    }
+
+    .C2 .card1{
+        width: 400px;
+    }
+
+    .C3 .slideshow-container{
+        max-width:100px ;
+    }
+
+    .C3 .slideshow-container img{
+        width:250px ;
+        height: 200px;
+        margin-right: 10%;
+    }
+
+    .C4 .max-card1{
+        width: 300px;
+    }
+
+    .C4 .card2 {
+        width: 150px;
+        height: 160px;
+    }
+    .C4 .card1 {
+        width: 150px;
+        height: 160px;
+    }
+
+    .C5 .
+    .
+
+    .C4 .img1 img{
+        width: 120px;
+        height: 100px;
+    }
+}
+ */
+ @media (max-width: 600x) {
+    /* Contoh CSS untuk layar dengan lebar maksimum 768px */
+    /* Misalnya, ubah tata letak atau ukuran elemen */
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Tambahkan lebih banyak aturan CSS responsif di sini */
+}
